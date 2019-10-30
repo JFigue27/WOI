@@ -6,6 +6,8 @@ namespace WOI
     {
         static void Main(string[] args)
         {
+            WorkOrderLogic WOILogic = new WorkOrderLogic();
+            WOILogic.ImportWorkOrderLogic();
             Console.WriteLine("Hello World!");
         }
     }
