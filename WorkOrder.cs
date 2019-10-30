@@ -2,6 +2,7 @@ namespace WOI
 {
     public class WorkOrder
     {
+        public int Id { get; set; }
         public string WorkOrderNumber { get; set; }
         public string MaterialNumber { get; set; }
         public string Seq_no_ { get; set; }
