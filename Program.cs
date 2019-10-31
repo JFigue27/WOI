@@ -11,11 +11,11 @@ namespace WOI
             WOILogic.ImportWorkOrderLogic();
 
             // Intance of JrzInv
-            JRZInventoryLogic JrzInvLogic = new JRZInventoryLogic();
-            JrzInvLogic.ImporterJRZInventoryLogic();
+            // JRZInventoryLogic JrzInvLogic = new JRZInventoryLogic();
+            // JrzInvLogic.ImporterJRZInventoryLogic();
 
-            Console.WriteLine("Hello World!");
-            Console.ReadKey();
+            // Console.WriteLine("Hello World!");
+            // Console.ReadKey();
         }
     }
 }
