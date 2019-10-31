@@ -10,5 +10,6 @@ namespace WOI
         }
 
         public DbSet<WorkOrder> WorkOrders { get; set; }
+        public DbSet<JRZInventory> JRZInventories { get; set; }
     }
 }
