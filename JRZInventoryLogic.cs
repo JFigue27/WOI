@@ -48,7 +48,7 @@ namespace WOI
                     // Transactio to Sql Server
                     dbContext.SaveChanges();
                     // Rename the file.
-                    File.Move(DirectoryPath + FileNames + Extention, DirectoryPath + FileNames + Extention + RenameFileDate);
+                    File.Move(DirectoryPath + FileNames + Extention, DirectoryPath + FileNames + RenameFileDate + Extention);
                 }
             }
 
