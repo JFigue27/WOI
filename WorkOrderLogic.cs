@@ -22,6 +22,7 @@ namespace WOI
                     var WO = dbContext.WorkOrders;
                     dbContext.WorkOrders.RemoveRange(WO);
                     dbContext.SaveChanges();
+
                     // Starting with new data from file.
                     string[] CooisLineas = File.ReadAllLines(DirectoryPath + FileNames + Extention);
 
